@@ -26,6 +26,11 @@
                 return;
             }
 
+            if (ai === 5) {
+                window.VizLollipop.draw(p, manager, ai, progress);
+                return;
+            }
+
             if (ai === 6 || ai === 9) {
                 window.VizProgressColor.draw(p, manager, ai, progress);
                 return;
