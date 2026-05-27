@@ -39,6 +39,8 @@
                 window.VizBar.draw(p, manager, ai, progress);
                 return;
             }
+
+            window.VizEmotionLine.draw(p, manager, ai, progress);
         }
     };
 })();
